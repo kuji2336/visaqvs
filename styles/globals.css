@@ -1,9 +1,10 @@
+
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,4 +14,28 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: "Fontmedium" !important;
+}
+
+
+@font-face {
+  font-family: "Fontmedium";
+  src: local("Fontmedium"), url("../src/assets/fonts/TBCContracticaCAPS-Medium.ttf");
+  font-display: swap;
+}
+
+p{
+  margin-bottom: 0 !important;
+}
+
+
+.is-Transformed {
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-80%,-50%);
 }
